@@ -1,0 +1,18 @@
+2022-01-11 17:45:18,392 - INFO - **************common.configs**********
+2022-01-11 17:45:18,392 - INFO - use_gpu: True, use_xpu: False, use_visual: False, infer_batch_size: 512, test_data_dir: ../../../datasets/criteo_DCNv2/slot_test_data_full, start_epoch: 0, end_epoch: 1, print_interval: 500, model_load_path: output_model_dcn_v2_4
+2022-01-11 17:45:18,392 - INFO - **************common.configs**********
+W0111 17:45:18.394057  9395 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0111 17:45:18.404037  9395 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-01-11 17:45:29,181 - INFO - read data
+2022-01-11 17:45:29,181 - INFO - reader path:reader
+2022-01-11 17:45:29,183 - INFO - load model epoch 0
+2022-01-11 17:45:29,183 - INFO - start load model from output_model_dcn_v2/0
+2022-01-11 17:45:31,244 - INFO - epoch: 0, batch_id: 0, auc: 0.821873,log_loss:0.43553263, avg_reader_cost: 0.00076 sec, avg_batch_cost: 0.00090 sec, avg_samples: 512.00000, ips: 124186.83 ins/s
+2022-01-11 17:46:47,815 - INFO - epoch: 0, batch_id: 500, auc: 0.804779,log_loss:0.4601812, avg_reader_cost: 0.07668 sec, avg_batch_cost: 0.15312 sec, avg_samples: 512.00000, ips: 3343.31 ins/s
+2022-01-11 17:48:05,955 - INFO - epoch: 0, batch_id: 1000, auc: 0.803728,log_loss:0.448038, avg_reader_cost: 0.07699 sec, avg_batch_cost: 0.15626 sec, avg_samples: 512.00000, ips: 3276.24 ins/s
+2022-01-11 17:49:17,310 - INFO - epoch: 0, batch_id: 1500, auc: 0.803031,log_loss:0.43527716, avg_reader_cost: 0.07418 sec, avg_batch_cost: 0.14269 sec, avg_samples: 512.00000, ips: 3587.78 ins/s
+2022-01-11 17:50:18,404 - INFO - epoch: 0, batch_id: 2000, auc: 0.803355,log_loss:0.46655783, avg_reader_cost: 0.06173 sec, avg_batch_cost: 0.12217 sec, avg_samples: 512.00000, ips: 4190.30 ins/s
+2022-01-11 17:51:23,226 - INFO - epoch: 0, batch_id: 2500, auc: 0.803314,log_loss:0.42510974, avg_reader_cost: 0.06610 sec, avg_batch_cost: 0.12962 sec, avg_samples: 512.00000, ips: 3949.35 ins/s
+2022-01-11 17:52:34,090 - INFO - epoch: 0, batch_id: 3000, auc: 0.802976,log_loss:0.45397282, avg_reader_cost: 0.07436 sec, avg_batch_cost: 0.14171 sec, avg_samples: 512.00000, ips: 3612.59 ins/s
+2022-01-11 17:53:43,601 - INFO - epoch: 0, batch_id: 3500, auc: 0.802683,log_loss:0.4410175, avg_reader_cost: 0.07214 sec, avg_batch_cost: 0.13900 sec, avg_samples: 512.00000, ips: 3682.93 ins/s
+2022-01-11 17:53:55,902 - INFO - epoch: 0 done, auc: 0.802657,log_loss:0.4384893, epoch time: 506.72 s
